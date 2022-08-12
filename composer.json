@@ -21,8 +21,8 @@
     "require": {
         "php": "^8.0",
 
-        "sylius/sylius": "~1.10.11 || ~1.11.2",
-        "friendsofsymfony/jsrouting-bundle": "^2.2"
+        "sylius/sylius": "~1.10.11 || ~1.11",
+        "friendsofsymfony/jsrouting-bundle": "^3.2"
     },
     "require-dev": {
         "behat/behat": "^3.6",
@@ -71,7 +71,8 @@
     },
     "config": {
         "allow-plugins": {
-            "symfony/flex": true
+            "symfony/flex": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
     "extra": {

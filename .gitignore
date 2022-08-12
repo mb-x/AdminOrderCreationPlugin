@@ -13,3 +13,5 @@
 /web/media
 
 /.phpunit.result.cache
+
+/.idea

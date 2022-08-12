@@ -95,4 +95,4 @@ sylius_admin_order_creation_ajax:
     resource: "@SyliusAdminOrderCreationPlugin/Resources/config/app/ajax.yml"
 
 fos_js_routing:
-    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing-sf4.xml"
